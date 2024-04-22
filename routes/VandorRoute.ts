@@ -4,10 +4,6 @@ import { CreateVandor } from '../controllers';
 const router = express.Router();
 
 
-
-
-
-
 router.get("/", (req: Request, res: Response, next: NextFunction) => {
     res.json({ message: "Hello From Vandor" });
 })
